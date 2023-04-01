@@ -9,27 +9,28 @@ public class ForLoopExample {
 	int actualPIN = 1234;
 	int enteredPIN;
 	int withdrawAmount;
+	int counter;
 
 	Scanner sc = new Scanner(System.in);
 
 	void checkPinIsCorrect() {
-		for (
-				int counter = 1; 
-				counter <= 3; 
-				counter++) 
-		{
+		for (counter = 1;counter <= 3; counter++) {
 			System.out.println("Enter the PIN");
 			enteredPIN = sc.nextInt();
 			if (actualPIN == enteredPIN) {
 				System.out.println("Entered PIN is correct");
 				System.out.println("Enter the amount to be withdrawn:");
 				withdrawAmount = sc.nextInt();
-				System.out.println("Cash withdrawn in amount of: "+withdrawAmount);
+				System.out.println("Cash withdrawn in amount of: " + withdrawAmount);
 				break;
 			} else {
 				System.out.println("Entered PIN is incorrect");
 			}
+//			counter=3;
 		}
+//		actualPIN = 4567;
 	}
 
 }
+
+
