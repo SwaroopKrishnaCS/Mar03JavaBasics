@@ -14,6 +14,7 @@ public class AccountMain {
 		swaroopAccount.amountWithdrawal(5000);
 		withdrawalAmount = 2000;
 		swaroopAccount.withdrawAmountFromATM(withdrawalAmount, "Swaroop");
+		
 
 	}
 
