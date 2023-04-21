@@ -7,5 +7,9 @@ public class AccountDetailsMain {
 		System.out.println(gopeshAccount.actualBalance);
 		System.out.println(gopeshAccount.actualPIN);
 		
+		AccountDetails account = new AccountDetails();
+		
+		account.actualBalance = 1000;
+		
 	}
 }
