@@ -15,7 +15,6 @@ public class LaptopMain {
 		
 		Laptop laptop = new Laptop();
 		
-		
 				
 	}
 
