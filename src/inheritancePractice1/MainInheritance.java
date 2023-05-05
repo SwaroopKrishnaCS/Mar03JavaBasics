@@ -6,9 +6,9 @@ public class MainInheritance {
 		
 		A a = new C();
 		
-		C cb = new B();
+		C cb = (C) new B();
 		
-		C c = new A();
+		C c = (C) new A();
 
 	}
 
