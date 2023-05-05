@@ -8,19 +8,24 @@ public class BankMain {
 		
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.println("Which bank you want o apply credit card");
+		System.out.println("Which bank you want to apply credit card");
 		String bankRequested = sc.next();
+		BankOfCanada boc = null;
+		switch (bankRequested) {
+		case "RBC":
+			boc = new RBC();
+//			RBC rbc = new RBC();
+			break;
+		case "CIBC":
+			boc = new CIBC();
+			break;
+		default:
+			System.out.println("No such bank available");
+			break;
+		}
 		
-//		switch (bankRequested) {
-//		case "RBC":
-//						
-//			break;
-//
-//		default:
-//			break;
-//		}
-		
-//		BankOfCanada boc = new BankOfCanada();
+		boc.provideCreditCard();
+
 
 	}
 
