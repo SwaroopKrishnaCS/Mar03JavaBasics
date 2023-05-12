@@ -62,10 +62,11 @@ public class BankingMain {
 			}
 		}
 		System.out.println(nameList.toString());
-
 		var nameArray = nameList.toArray();
 		System.out.println(nameArray.length);
 		System.out.println(Arrays.toString(nameArray));
 	}
+	
+	List<Integer> numberList = new ArrayList<Integer>();
 
 }
