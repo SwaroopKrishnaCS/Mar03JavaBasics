@@ -1,4 +1,4 @@
-package HashMapPractice;
+package hashMapPractice;
 
 public class Employee {
 	
