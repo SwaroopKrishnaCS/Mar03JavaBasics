@@ -31,6 +31,8 @@ public class CarDelaershipMain {
 		
 		double priceOfRequestedCar = ds.getRequestedCarPrice(carRequested);
 		System.out.println("Price for the car: "+priceOfRequestedCar);
+		
+		sc.close();
 
 	}
 
